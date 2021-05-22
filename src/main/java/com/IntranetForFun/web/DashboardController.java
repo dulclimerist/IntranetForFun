@@ -11,4 +11,9 @@ public class DashboardController {
     public String rootView() {
         return "index";
     }
+
+    @RequestMapping(value = "/dashboard")
+    public String dashboard() {
+        return "dashboard";
+    }
 }
